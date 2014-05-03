@@ -86,8 +86,8 @@ describe("Object Comparator Module :: Test Suit 1 :->", function() {
         };
 
 
-        expect(compare(obj1, obj2)).toBe(true);
-        expect(compare(obj2, obj1)).toBe(true);
+        expect(compare(obj1, obj2)).toBe(false);
+        expect(compare(obj2, obj1)).toBe(false);
 
     });
 
